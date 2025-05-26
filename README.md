@@ -3,7 +3,7 @@
 [![SQL](https://img.shields.io/badge/MySQL-8.0+-f29221?style=for-the-badge&logo=mysql&logoColor=white&labelColor=101010)](https://mysql.com)
 [![SQL](https://img.shields.io/badge/PostgreSQL-16+-699eca?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=101010)](https://postgresql.org)
 
-## Curso completo para aprender los fundamentos del lenguaje SQL y bases de datos relacionales
+## E
 
 ![](./Images/header.jpg)
 
@@ -20,7 +20,7 @@
 
 ## Lecciones y código
 
-[INTRODUCCIÓN](https://youtu.be/OuJerKzV5T0)
+[INTRODUCCIÓN]
 
 1. [Bases de datos SQL](
 2. [Sistema de gestión de base de datos]
@@ -41,9 +41,9 @@
 	1. [`COMMENTS`] ➔ [[Código]](./01_Reading/00_comments.sql)
 	2. [`NULL`]➔ [[Código]](./01_Reading/08_null.sql)
 	3. [`MIN, MAX`][MIN(..)FROM']➔ [[Código]](./01_Reading/09_min_max.sql)
-	4. [`COUNT`]['COUNT(..)FROM'] ➔ [[Código]](./01_Reading/10_count.sql)
+	4. [`COUNT`]['COUNT(..)FROM' depues'WHERE'] ➔ [[Código]](./01_Reading/10_count.sql)
 	5. [`SUM`]['(..)FROM'] ➔ [[Código]](./01_Reading/11_sum.sql)
-	6. [`AVG`]['AVG(..)'FROM'..''] ➔ [[Código]](./01_Reading/12_avg.sql)
+	6. [`AVG`]['AVG(..)'FROM'..'WHERE'] ➔ [[Código]](./01_Reading/12_avg.sql)
 	7. [`IN`] ➔ [[Código]](./01_Reading/13_in.sql)
 	8. [`BETWEEN`]['AND, OR, NOT']➔ [[Código]](./01_Reading/14_between.sql)
 	9. [`ALIAS`]['AS'.... 'FROM...] ➔ [[Código]](./01_Reading/15_alias.sql)
@@ -52,7 +52,7 @@
 	12. [`HAVING`]['AL FINAL Y PONERLE CRITERIO COMO ALGO <O> POR EJEMPLO'] ➔ [[Código]](./01_Reading/18_having.sql)
 	13. [`CASE`][' es como un for pero en SQL: te pongo un ejemplo: ## SELECT *,/n CASE/n WHEN age < 17 THEN 'Es mayor de edad' /n ELSE 'Es menor de edad' /n END AS agetext /n FROM users; ## ➔ [[Código]](./01_Reading/19_case.sql)
 	15. [`IFNULL`][(..., DATO QUE QUIERAS CAMBIAR POR NULO)'] ➔ [[Código]](./01_Reading/08_null.sql)
-	16. [Otros modificadores] ➔ [[Código]](http/w3schools.com)
+	16. [Otros modificadores] ➔ [[Código]](https://www.w3schools.com/)
 11. [Escritura de datos]
 	1. [`INSERT`] ➔ [[Código]](./02_Writing/01_insert.sql)
 	2. [`UPDATE`] ➔ [[Código]](./02_Writing/02_update.sql)
@@ -74,40 +74,40 @@
 	11. [`RENAME COLUMN`] ➔ [[Código]](./04_Tables/03_alter_table.sql)
 	12. [`MODIFY COLUMN`] ➔ [[Código]](./04_Tables/03_alter_table.sql)
 	13. [`DROP COLUMN`] ➔ [[Código]](./04_Tables/03_alter_table.sql)
-14. [Relaciones entre tablas](https://youtu.be/OuJerKzV5T0?t=12781)
-	1. [RELACIÓN `1:1`](https://youtu.be/OuJerKzV5T0?t=12852)
-	2. [RELACIÓN `1:N`](https://youtu.be/OuJerKzV5T0?t=13117)
-	3. [RELACIÓN `N:M`](https://youtu.be/OuJerKzV5T0?t=13208)
-	4. [AUTOREFERENCIA](https://youtu.be/OuJerKzV5T0?t=13343)
-15. [Creación de tablas relacionadas](https://youtu.be/OuJerKzV5T0?t=13428)
-	1. [TABLAS `1:1`](https://youtu.be/OuJerKzV5T0?t=13490) ➔ [[Código]](./04_Tables/04_relationships.sql)
-	2. [TABLAS `1:N`](https://youtu.be/OuJerKzV5T0?t=13732) ➔ [[Código]](./04_Tables/04_relationships.sql)
-	3. [TABLAS `N:M`](https://youtu.be/OuJerKzV5T0?t=14313) ➔ [[Código]](./04_Tables/04_relationships.sql)
-16. [Almacenamiento de datos relacionados](https://youtu.be/OuJerKzV5T0?t=14635)
-	1. [DATOS `1:1`](https://youtu.be/OuJerKzV5T0?t=14994) ➔ [[Código]](./04_Tables/04_relationships.sql)
-	2. [DATOS `1:N`](https://youtu.be/OuJerKzV5T0?t=15203) ➔ [[Código]](./04_Tables/04_relationships.sql)
-	3. [DATOS `N:M`](https://youtu.be/OuJerKzV5T0?t=15474) ➔ [[Código]](./04_Tables/04_relationships.sql)
-17. [Consulta de datos relacionados](https://youtu.be/OuJerKzV5T0?t=16013)
-	1. [`INNER JOIN`](https://youtu.be/OuJerKzV5T0?t=16101) ➔ [[Código]](./05_Join/01_inner_join.sql)
-	2. [`LEFT JOIN`](https://youtu.be/OuJerKzV5T0?t=17045) ➔ [[Código]](./05_Join/02_left_join.sql)
-	3. [`RIGHT JOIN`](https://youtu.be/OuJerKzV5T0?t=17399) ➔ [[Código]](./05_Join/03_right_join.sql)
-	4. [`UNION`](https://youtu.be/OuJerKzV5T0?t=17536) ➔ [[Código]](./05_Join/04_union.sql)
-18. [Conceptos avanzados](https://youtu.be/OuJerKzV5T0?t=18196)
-	1. [`INDEX`](https://youtu.be/OuJerKzV5T0?t=18219) ➔ [[Código]](./06_Advanced/01_index.sql)
-	2. [`TRIGGER`](https://youtu.be/OuJerKzV5T0?t=18961) ➔ [[Código]](./06_Advanced/02_triggers.sql)
-	3. [`VIEW`](https://youtu.be/OuJerKzV5T0?t=19663) ➔ [[Código]](./06_Advanced/03_views.sql)
-	4. [`STORED PROCEDURE`](https://youtu.be/OuJerKzV5T0?t=20033) ➔ [[Código]](./06_Advanced/04_stored_procedures.sql)
-	5. [TRANSACCIONES](https://youtu.be/OuJerKzV5T0?t=20501) ➔ [[Código]](./06_Advanced/05_transactions.sql)
-	6. [CONCURRENCIA](https://youtu.be/OuJerKzV5T0?t=20701)
-19. [Conexión desde código](https://youtu.be/OuJerKzV5T0?t=20847)
-	1. [CONECTORES](https://youtu.be/OuJerKzV5T0?t=20876) ➔ [[Código]](./06_Advanced/06_connectors.py)
-	2. [SQL INJECTION](https://youtu.be/OuJerKzV5T0?t=21149) ➔ [[Código]](./06_Advanced/06_connectors.py)
-20. [Otros clientes SQL](https://youtu.be/OuJerKzV5T0?t=21641)
-21. [PostgresSQL](https://youtu.be/OuJerKzV5T0?t=22070)
-22. [Despliegue en la nube](https://youtu.be/OuJerKzV5T0?t=23214)
-23. [Próximos pasos](https://youtu.be/OuJerKzV5T0?t=24283)
+14. [Relaciones entre tablas]
+	1. [RELACIÓN `1:1`]
+	2. [RELACIÓN `1:N`]
+	3. [RELACIÓN `N:M`]
+	4. [AUTOREFERENCIA]
+15. [Creación de tablas relacionadas]
+	1. [TABLAS `1:1`] ➔ [[Código]](./04_Tables/04_relationships.sql)
+	2. [TABLAS `1:N`] ➔ [[Código]](./04_Tables/04_relationships.sql)
+	3. [TABLAS `N:M`] ➔ [[Código]](./04_Tables/04_relationships.sql)
+16. [Almacenamiento de datos relacionados]
+	1. [DATOS `1:1`] ➔ [[Código]](./04_Tables/04_relationships.sql)
+	2. [DATOS `1:N`]) ➔ [[Código]](./04_Tables/04_relationships.sql)
+	3. [DATOS `N:M`] ➔ [[Código]](./04_Tables/04_relationships.sql)
+17. [Consulta de datos relacionados]
+	1. [`INNER JOIN`] ➔ [[Código]](./05_Join/01_inner_join.sql)
+	2. [`LEFT JOIN`] ➔ [[Código]](./05_Join/02_left_join.sql)
+	3. [`RIGHT JOIN`] ➔ [[Código]](./05_Join/03_right_join.sql)
+	4. [`UNION`] ➔ [[Código]](./05_Join/04_union.sql)
+18. [Conceptos avanzados]
+	1. [`INDEX`] ➔ [[Código]](./06_Advanced/01_index.sql)
+	2. [`TRIGGER`] ➔ [[Código]](./06_Advanced/02_triggers.sql)
+	3. [`VIEW`] ➔ [[Código]](./06_Advanced/03_views.sql)
+	4. [`STORED PROCEDURE`] ➔ [[Código]](./06_Advanced/04_stored_procedures.sql)
+	5. [TRANSACCIONES] ➔ [[Código]](./06_Advanced/05_transactions.sql)
+	6. [CONCURRENCIA]
+19. [Conexión desde código]
+	1. [CONECTORES]➔ [[Código]](./06_Advanced/06_connectors.py)
+	2. [SQL INJECTION] ➔ [[Código]](./06_Advanced/06_connectors.py)
+20. [Otros clientes SQL]
+21. [PostgresSQL]
+22. [Despliegue en la nube]
+23. [Próximos pasos]
 
-[CONCLUSIONES](https://youtu.be/OuJerKzV5T0?t=24678)
+[CONCLUSIONES]
 
 Durante el curso aprenderemos los fundamentos del lenguaje SQL y las bases de datos relacionales con ejemplos prácticos.
 Nos centraremos en MySQL para llevar a cabo las clases, ya que es uno de los más usados en enseñanza y a nivel profesional. También utilizaremos PostgreSQL, por ser una de las bases de datos más populares de la actualidad. De todas formas, no debe preocuparte el motor de bases de datos utilizado, ya que SQL es un lenguaje estándar, por lo que se utilizará prácticamente igual en todas ellas. Una vez lo conozcas no tendrá dificultad alguna llevar esos conocimientos a otros sistemas.  
